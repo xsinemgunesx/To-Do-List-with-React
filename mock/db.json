@@ -1,0 +1,50 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "ddede"
+    }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "name": "coding"
+    },
+    {
+      "id": "7",
+      "name": "deee"
+    }
+  ],
+  "person": [
+    {
+      "id": 1,
+      "userId": 1,
+      "taskId": 1,
+      "durum": "Silindi"
+    },
+    {
+      "id": 2,
+      "userId": "1",
+      "taskId": "1",
+      "durum": "Silindi"
+    },
+    {
+      "id": 3,
+      "userId": "1",
+      "taskId": "Seçiniz",
+      "durum": "Tamamlandı"
+    },
+    {
+      "id": 4,
+      "userId": "1",
+      "taskId": "7",
+      "durum": "Silindi"
+    },
+    {
+      "id": 5,
+      "userId": 0,
+      "taskId": 0,
+      "durum": "Tamamlandı"
+    }
+  ]
+}

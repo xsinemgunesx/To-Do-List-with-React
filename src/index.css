@@ -1,0 +1,121 @@
+/* body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+} */
+.list {
+  width: 220px;
+  border: none;
+  color: #3f3939;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.userTask-table {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+h1 {
+  color: #ece1e1;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.container {
+  background: linear-gradient(to right bottom, #d79cb1, #65d280);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper {
+  /* display: flex;
+  flex-grow: 1; */
+  background-color: #7ab6b6;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #94e1e1;
+  margin-bottom: 30px;
+}
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #c89666;
+}
+.check,
+.delete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.check {
+  color: #ff6c6c;
+  margin-right: 5px;
+}
+.delete {
+  color: rgb(145, 7, 19);
+}
+.new-task-button {
+  background-color: transparent;
+  border: none;
+  & span {
+    color: #ec4899;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #ec4899, #8b5cf6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+}
+
+.new-task-button:hover {
+  opacity: 0.8;
+}
+.new-task-button:active {
+  opacity: 0.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
